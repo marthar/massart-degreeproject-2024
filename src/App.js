@@ -27,7 +27,7 @@ const initialState = {
   view: "posters"
 }
 
-const symposiumDate = "Online Symposium April 26th 2022"
+const symposiumDate = "Online Symposium April 23th 2024"
 
 const viewReducer = (state, action) => {
   switch(action.type) { 
@@ -218,7 +218,7 @@ function App() {
           <Route path="/:id" children={<GalleryDetail entries={entries} />} />
         </Switch>
       <footer>
-        <h3><img src="./light-logo.png" />621 Huntington Avenue, Boston, MA, 02115 | 617.879.7000 | &copy; 2022 | <a href="mailto:merettig@massart.edu?Subject=Degree%20Symposium" target="_top"> Contact Us</a></h3>
+        <h3><img src="./light-logo.png" />621 Huntington Avenue, Boston, MA, 02115 | 617.879.7000 | &copy; 2024 | <a href="mailto:merettig@massart.edu?Subject=Degree%20Symposium" target="_top"> Contact Us</a></h3>
       </footer>
      </div>
     </Router>
